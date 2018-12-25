@@ -1,0 +1,39 @@
+.rmc_swipe{
+  overflow: hidden;
+  position: relative;
+  .rmc_swipe_actions{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all .25s;
+  }
+  .rmc_swipe_btn{
+    display: flex;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(221, 221, 221);
+    color: white;
+  }
+  .rmc_swipe_content{
+    position: relative;
+    background-color: #fff;
+    transition: all .25s;
+    touch-action: pan-y;
+    left: 0px;
+    &.is_swiped_1{
+      left: -70px;
+    }
+    &.is_swiped_2{
+      left: -140px;
+    }
+    &.is_swiped_3{
+      left: -210px;
+    }
+  }
+}
