@@ -77,11 +77,9 @@ http://localhost:8000/examples/
 
 | name     | description    | type     | default      |
 |----------|----------------|----------|--------------|
-|dots | show dots or not | Boolean | true |
-|autoplay | autoplay or not | Boolean | true |
-|edgeEasing | transition type | String | 'linear' |
-|speed | transition speed | Number | 500 |
-|interVal | carousel interVal | Number | 5000 |
+|btnList | button list | Array | isRequired |
+|style | swipe style | Object | {} |
+|className | className | String | '' |
 
 
 ## Test Case
