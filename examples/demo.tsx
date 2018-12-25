@@ -38,7 +38,7 @@ class Demo extends React.Component<any, any> {
         <SwipeItem btnList={ btnList }>
           <div style={{ lineHeight: '30px', paddingLeft: '40px', border: '1px solid #eee' }}>
             <div>
-              <a target='_blank' href='http://www.baidu.com' rel="noopener noreferrer">Hansin Test</a>  
+              <a target='_blank' href='http://www.baidu.com' rel="noopener noreferrer">Hansin Test Hansin Test Hansin Test</a>  
             </div>
             <a target='_blank' href='http://www.baidu.com' rel="noopener noreferrer">---Test</a>
           </div>
